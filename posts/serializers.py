@@ -20,6 +20,13 @@ class PostSerializer(serializers.ModelSerializer):
         model = Post
         fields = ['id', 'title', 'body', 'author', 'created_at', 'updated_at', 'tags', 'tag_names']
 
+    def validate_tag_names(self, value):
+        existing_tags = Tag.objects.values_list('name', flat=True)
+        invalid_tags = [name for name in value if name not in existing_tags]
+        if invalid_tags:
+            raise serializers.ValidationError(f"These tags do not exist: {', '.join(invalid_tags)}")
+        return value
+
     def create(self, validated_data):
         tag_names = validated_data.pop('tag_names', [])
         post = Post.objects.create(**validated_data)
@@ -33,10 +40,7 @@ class PostSerializer(serializers.ModelSerializer):
         return instance
 
     def _save_tags(self, post, tag_names):
-        tags = []
-        for name in tag_names:
-            tag, created = Tag.objects.get_or_create(name=name)
-            tags.append(tag)
+        tags = Tag.objects.filter(name__in=tag_names)
         post.tags.set(tags)
 
 
