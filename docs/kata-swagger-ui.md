@@ -90,3 +90,11 @@ python manage.py runserver
 ```
 
 Navigate the  browser to http://127.0.0.1:8000/docs/.
+
+![](swagger-ui-for-blog-api.png)
+
+To create above screenshot:
+
+* Ctrl + Shift + I or F12 or Developer tools
+* The three dots -> Run Command
+* Type `screenshot` and select `Capture full size screenshot`
