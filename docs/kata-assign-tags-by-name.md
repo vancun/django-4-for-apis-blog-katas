@@ -1,5 +1,10 @@
 # Assign Tags by Name Kata
 
+Pre-requisites:
+
+* [REST APIs](kata-rest-apis.md)
+* [Swagger Interface for API Kata](kata-swagger-interface.md) (optional)
+
 
 ## Try The API
 

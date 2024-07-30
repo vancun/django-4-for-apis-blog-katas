@@ -1,8 +1,9 @@
 # Assign Only Exisisting Tags Kata
 
-## Pre-requisites
+Pre-requisites:
 
 * [Assign Tags by Name Kata](kata-assign-tags-by-name.md)
+* [Swagger Interface for API Kata](kata-swagger-interface.md) (optional)
 
 ## Modify PostSerializser
 
