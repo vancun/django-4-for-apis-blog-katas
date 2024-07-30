@@ -1,5 +1,16 @@
 # Blog Models Kata
 
+In this kata we are going to create all the Django models for our blog API.
+
+* Create E-R diagram using Mermaid
+* Create the Post model
+* Create the Comment model
+* Establish one-to-many (ForeignKey) relationship between Post and Comment
+* Create the Tag model
+* Establish many-to-many relationship between Post and Tag
+* Explore the models by creating some posts, comments and tags.
+
+
 ```mermaid
 ---
 title: Blog Model
