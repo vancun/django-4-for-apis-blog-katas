@@ -1,4 +1,4 @@
-# Swagger Interface for API Kata
+# Swagger User Interface for API Kata
 
 
 1. Install `drf-yasg`

@@ -4,6 +4,6 @@ Blog API Katas
 * [Custom User Model](kata-custom-user-model.md)
 * [Blog Models](kata-blog-models.md)
 * [REST APIs](kata-rest-apis.md)
-* [Swagger Interface for REST API](kata-swagger-interface.md)
+* [Swagger User Interface for REST API](kata-swagger-ui.md)
 * [Assign Tags by Name](kata-assign-tags-by-name.md)
 * [Assign Only Existing Tags Kata](kata-assing-only-existing-tags.md)
