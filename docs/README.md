@@ -1,6 +1,6 @@
 Blog API Katas
 
-* [Setup Pythono Project](kata-setup-python-project.md)
+* [Setup a Django Project](kata-setup-django-project.md)
 * [Custom User Model](kata-custom-user-model.md)
 * [Blog Models](kata-blog-models.md)
 * [REST APIs](kata-rest-apis.md)
