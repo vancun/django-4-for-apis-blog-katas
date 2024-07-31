@@ -3,9 +3,10 @@
 
 Django data export and import kata:
    * Use embedded django commands `dumpdata` and `loaddata`.
-   * Use exportdata and importdata provided by django-extensions package.
+   * Use `dumpscript` provided by django-extensions package.
    * Use django admin
    * Use REST endpoints
 
-
-
+Better instrumentation for development and testing
+   * Development mode with extra packages.
+   * Testing mode
