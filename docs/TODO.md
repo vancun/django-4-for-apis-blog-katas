@@ -10,3 +10,13 @@ Django data export and import kata:
 Better instrumentation for development and testing
    * Development mode with extra packages.
    * Testing mode
+
+Celery and Django
+
+Pagination in DRF
+
+Disable pagination in DRF, using query parameter
+
+VSCode
+  - Configure `launch.json`
+  - Configure `pytest`
