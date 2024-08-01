@@ -20,3 +20,5 @@ Disable pagination in DRF, using query parameter
 VSCode
   - Configure `launch.json`
   - Configure `pytest`
+
+Filters
